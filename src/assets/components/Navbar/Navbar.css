@@ -1,12 +1,12 @@
-/* Navbar.css - with fixed dark-tech colors */
+/* Navbar.css */
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
-  background-color: #0d1117;      /* dark background */
-  color: #c9d1d9;                 /* soft light text */
+  background-color: var(--bg-color);
+  color: var(--text-color);
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -16,7 +16,7 @@
 .navbar-logo a {
   font-size: 1.8rem;
   font-weight: bold;
-  color: #58a6ff;                /* primary tech blue */
+  color: var(--primary-color);
   text-decoration: none;
 }
 
@@ -27,14 +27,14 @@
 }
 
 .navbar-links li a {
-  color: #c9d1d9;                /* normal text color */
+  color: var(--text-color);
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease;
 }
 
 .navbar-links li a:hover {
-  color: #58a6ff;                /* hover with blue highlight */
+  color: var(--primary-color);
 }
 
 .navbar-toggle {
