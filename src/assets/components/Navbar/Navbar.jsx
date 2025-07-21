@@ -1,7 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import './Navbar.css';
-import ThemeToggle from '../ThemeToggle/ThemeToggle';
 const Navbar=()=>{
 return(
 <nav className="navbar">
@@ -18,7 +17,6 @@ return(
 <li><Link for="/contact">Contact</Link></li>
 <li><Link for="/resume">Resume</Link></li>
 </ul>
-<div className="navbar-toggle"><ThemeToggle/></div>
 </nav>
   )
 }
